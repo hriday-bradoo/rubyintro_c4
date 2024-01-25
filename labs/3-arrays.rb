@@ -15,3 +15,23 @@
 # HINTS
 # Learn to read the documentation!
 # https://ruby-doc.org/core-2.7.0/Array.html
+
+# create my list
+my_list = ["milk", "eggs", "bacon", "beer"]
+
+#create friends list
+freind_list = ["beer", "cookies", "apples"]
+
+# combined list
+combined_list = my_list + freind_list
+
+# sort aplhabetically
+
+sorted_list = combined_list.sort
+unique_list = sorted_list.uniq
+
+
+# add buy
+for list in unique_list
+    puts "Buy #{list}"
+end
